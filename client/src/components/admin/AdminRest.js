@@ -1,14 +1,9 @@
-import { useState, Fragment, useContext, useEffect } from "react";
-import { useHistory } from "react-router-dom";
-import RestContext from "../../store/rest-context";
-import AdminAddRestaurant from "./AdminAddRestaurant";
-import AdminAllRest from "./AdminAllRest";
-import classes from "./AdminRest.module.css";
+import { useState, Fragment } from 'react';
+import AdminAddRestaurant from './AdminAddRestaurant';
+import AdminAllRest from './AdminAllRest';
+import classes from './AdminRest.module.css';
 
 const AdminRest = () => {
-  const restCtx = useContext(RestContext);
-  const history = useHistory();
-
   const [showRest, setShowRest] = useState(false);
   const [showAddRest, setShowAddRest] = useState(false);
 
@@ -22,7 +17,7 @@ const AdminRest = () => {
           }}
           className={classes.button}
         >
-          {showRest ? "Hide restaurants" : "Show restaurants"}
+          {showRest ? 'Hide restaurants' : 'Show restaurants'}
         </button>
         <button
           onClick={() => {
@@ -31,7 +26,7 @@ const AdminRest = () => {
           }}
           className={classes.button}
         >
-          {showAddRest ? "Hide Form" : "Add a Restaurant"}
+          {showAddRest ? 'Hide Form' : 'Add a Restaurant'}
         </button>
         {showRest && <AdminAllRest />}
         {showAddRest && <AdminAddRestaurant />}
