@@ -1,0 +1,20 @@
+.on {
+  color: gold;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+}
+.off {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.star-rating {
+  margin-left: -8px;
+}

@@ -1,0 +1,137 @@
+.cart-search {
+  /* background-color: coral; */
+  vertical-align: middle;
+  /* margin-left: 1390px; */
+  /* width: 40%; */
+  /* padding: 10px; */
+  /* margin-bottom: 15px; */
+  display: inline-block;
+  /* height: 50px; */
+}
+
+.icon-wrapper {
+  display: inline-block;
+}
+.icon {
+  color: transparent;
+  /* color: inherit; */
+  font-size: 150%;
+  width: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  /* background-color: yellow; */
+}
+.cart-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.quantity {
+  /* background-color: cornflowerblue; */
+  position: relative;
+  display: inline-block;
+  /* display: inline-block; */
+  font-family: 'Roboto', sans-serif;
+  /* top: -1em; */
+  height: 50px;
+  right: 2px;
+  top: -20px;
+  font-size: 10px;
+  font-weight: thin;
+  /* margin-bottom: 50px; */
+  /* padding: 3px; */
+  text-align: right;
+  color: inherit;
+  /* line-height: 1em; */
+}
+
+.log {
+  display: inline-block;
+  vertical-align: middle;
+  /* margin: 10px auto; */
+  /* padding-left: 100px; */
+  margin-left: 8px;
+  /* margin-right: 15px; */
+  /* background-color: aqua; */
+}
+
+.log-button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.log-button {
+  border: none;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(73, 73, 73);
+  color: rgb(80, 79, 79);
+  /* width: 100%; */
+  font-size: inherit;
+  font-family: ibm-plex-sans, sans-serif;
+
+  background-color: inherit;
+  color: inherit;
+  /* background-color: aqua; */
+}
+.logout-button:hover {
+  color: #ada093;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cart-search {
+    background-color: coral;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    right: 600px;
+    width: 120px;
+  }
+  .log {
+    display: inline-block;
+  }
+
+  .log-button {
+    /* background-color: aqua; */
+    display: inline-block;
+  }
+  .icon-wrapper {
+    display: inline-block;
+  }
+  .icon {
+    color: transparent;
+    /* font-size: 150%; */
+    /* width: 27px; */
+    display: inline-block;
+    /* vertical-align: middle; */
+  }
+  .cart-icon {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .cart-search {
+    /* background-color: coral; */
+    vertical-align: middle;
+    display: inline-block;
+    /* position: relative; */
+    /* height: 50px; */
+  }
+
+  .icon-wrapper {
+    display: inline-block;
+  }
+  .icon {
+    color: transparent;
+    font-size: 150%;
+    width: 27px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .cart-icon {
+    height: 100%;
+    width: 100%;
+  }
+}

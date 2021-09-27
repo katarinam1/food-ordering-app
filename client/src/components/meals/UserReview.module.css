@@ -1,0 +1,138 @@
+.message {
+  /* background-color: tomato; */
+  /* position: absolute; */
+  font-size: 50px;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 300;
+  margin-left: 18px;
+  color: white;
+  /* margin-left: 300px; */
+  /* background-color: blue; */
+  margin-top: 0px;
+  -webkit-animation: fadeinout 2s linear forwards;
+  animation: fadeinout 2s linear forwards;
+}
+.after {
+  position: absolute;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: white;
+  /* margin-left: 300px; */
+  /* background-color: blue; */
+  margin-top: -120px;
+  margin-left: 130px;
+  -webkit-animation: fadein 4s linear forwards;
+  animation: fadein 4s linear forwards;
+}
+.review {
+  /* position: absolute; */
+  font-size: 15px;
+  font-family: source-sans-pro, sans-serif;
+  color: white;
+  /* background-color: blueviolet; */
+  font-weight: 300;
+  font-size: 30px;
+  margin-left: 20px;
+  /* margin-left: 340px;
+  margin-top: 120px; */
+}
+
+.on {
+  color: rgb(153, 142, 122);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+}
+.off {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.rating {
+  /* background-color: brown; */
+  /* position: absolute; */
+  color: white;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0%,
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.review-sent {
+  /* background-color: aqua; */
+  text-align: center;
+  /* margin-right: 50px; */
+  margin-left: 180px;
+  margin-top: 80px;
+}
+
+.myButton {
+  /* background-color: #434945; */
+  background-color: inherit;
+  /* display: inline-block; */
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  /* border: 1px solid rgb(146, 91, 91); */
+  /* padding: 10px 43px; */
+  text-decoration: underline;
+  border: none;
+}
+.myButton:hover {
+  opacity: 70%;
+}
+.myButton:active {
+  position: relative;
+}
+
+.button {
+  margin-top: 40px;
+  margin-left: 5px;
+}

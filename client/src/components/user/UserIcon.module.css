@@ -1,0 +1,79 @@
+.user {
+  font-size: 0.1px;
+  color: transparent;
+  width: 50px;
+}
+
+.home__icon g {
+  fill: #b33c3c;
+}
+
+.home__icon path {
+  stroke: #1a1616;
+  stroke-width: 16px;
+}
+
+.dropdown {
+  /* color: transparent; */
+  /* background-color: tomato; */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  color: black;
+  display: none;
+  position: absolute;
+  /* background-color: #ffffff; */
+  background-color: rgb(255, 246, 240);
+  background-color: rgb(244, 243, 241);
+  width: 150px;
+  /* padding: 10px; */
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 17px;
+  /* margin-right: 60px; */
+  right: 12px;
+  color: gray;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1); */
+  z-index: 1;
+  /* margin-top: 2px; */
+}
+
+.dropdown-content::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 101px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgb(244, 243, 241) transparent;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0.2, 0, 0); */
+  /* background-color: tomato; */
+}
+
+.name {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: rgb(248, 244, 238);
+  font-size: 16px;
+  /* border-bottom: 1px solid rgb(177, 176, 176); */
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  /* font-weight: 700; */
+  font-size: 14px;
+  color: black;
+  color: rgb(118, 118, 118);
+  /* color: white; */
+  font-family: 'libre-franklin', sans-serif;
+  font-family: 'aileron', sans-serif;
+  font-family: 'ibm-plex-sans', sans-serif;
+}
+.content:hover {
+  opacity: 50%;
+}

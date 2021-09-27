@@ -1,0 +1,107 @@
+.wrapper {
+  /* background-color: brown; */
+  display: block;
+  position: relative;
+  /* margin-top: 100px; */
+  /* padding-left: 10px; */
+  /* top: 80px; */
+}
+
+.button {
+  /* background-color: #434945; */
+  /* background-color: #61635f; */
+  /* background-color: #ffe6e6; */
+  background-color: inherit;
+  /* border: 1px solid #616161; */
+  display: block;
+  cursor: pointer;
+  /* margin-left: 1.4vw;
+  margin-top: 1vh; */
+  color: #4e4e4e;
+  font-family: "Roboto", sans-serif;
+  /* font-family: "ibm-plex-sans", sans-serif; */
+  /* font-family: "Libre Franklin", sans-serif; */
+  font-weight: 300;
+  font-size: 20px;
+  /* padding: 8px 30px 5px; */
+  padding-top: 10px;
+  padding-left: 0px;
+  /* border-radius: 2px; */
+  border: none;
+  text-transform: uppercase;
+  border-color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Limelight", cursive;
+  font-family: "Didact Gothic", sans-serif;
+  color: white;
+  color: #000000;
+  /* border-color: #866f6f; */
+
+  margin: 10px;
+  text-decoration: none;
+}
+.button:hover {
+  opacity: 50%;
+  background-color: inherit;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ada093;
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  border: 0.1px solid #b7b7b7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #909090;
+}
+
+/* new css drop down */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}

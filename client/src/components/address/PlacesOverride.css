@@ -1,0 +1,39 @@
+.react-mapbox-ac-menu {
+  /* width: inherit; */
+  width: 62%;
+  /* width: 100%; */
+  position: absolute;
+  z-index: 9999;
+  background-color: rgb(211, 194, 172);
+  /* background-color: inherit; */
+  margin-top: -15px;
+  padding: 0px;
+  /* margin-left: 0%; */
+  /* margin-top: 500px; */
+  border: none;
+  background-color: #d8c5af;
+  border: 1px solid white;
+  /* background-color: #ecddcc; */
+  /* background-color: white; */
+}
+
+.react-mapbox-ac-input {
+  /* margin-left: 90px; */
+}
+
+.react-mapbox-ac-suggestion {
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(154, 131, 114);
+  color: white;
+  /* color: white; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.react-mapbox-ac-suggestion:hover {
+  background-color: rgb(199, 175, 152);
+  background-color: rgb(216, 199, 175);
+  background-color: #dcc4a9;
+  /* background-color: rgb(189, 166, 145); */
+  color: rgb(255, 255, 255);
+}

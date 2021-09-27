@@ -1,0 +1,110 @@
+.container {
+  /* background-color: blueviolet; */
+  padding-top: 150px;
+  text-align: center;
+  position: relative;
+  /* padding-left: 700px; */
+  /* padding: 200px 700px auto auto; */
+}
+
+.small {
+  display: inline-block;
+  /* font-size: calc((1 - 1) * 1.2vw + 1rem) !important; */
+  font-size: 15px;
+  /* background-color: thistle; */
+  font-family: source-sans-pro, sans-serif;
+  color: rgb(255, 255, 255);
+  /* height: 20px; */
+  margin-top: -100px;
+  margin-left: -10px;
+}
+
+.small-bold {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text {
+  font-family: source-sans-pro, sans-serif;
+  font-size: calc((2 - 1) * 1.2vw + 1rem) !important;
+  color: white;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  /* background-color: teal; */
+}
+
+.form {
+  text-align: center;
+  /* background-color: brown; */
+  vertical-align: middle;
+  margin-left: 0px;
+}
+
+.input-container {
+  display: inline-block;
+  /* background-color: khaki; */
+  margin-right: 15px;
+}
+
+.input {
+  font: inherit;
+  display: inline-block;
+  font-size: 18px;
+  /* height: 70px; */
+  /* padding-top: 40px; */
+  line-height: 60px;
+  /* width: 300px; */
+  text-align: bottom;
+  font-family: "Ariel", sans-serif;
+  background-color: white;
+  padding: 1.4rem 2rem !important;
+  line-height: 1.2rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.input:focus {
+  outline-color: white;
+  outline-width: 2px;
+  outline-style: solid;
+  outline-offset: 4px;
+}
+
+.input::placeholder {
+  color: rgb(172, 171, 171);
+  text-transform: initial;
+  font-weight: 200;
+  text-align: start;
+}
+
+.myButton {
+  /* background-color: #434945; */
+  background-color: #61635f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  /* border: 1px solid rgb(146, 91, 91); */
+  padding: 16px 43px;
+  text-decoration: none;
+  margin-top: 5px;
+  border: none;
+}
+.myButton:hover {
+  background-color: #c7bcae;
+  color: #ffffff;
+  /* border: 10px solid #b3a18b; */
+  /* box-shadow: inset 0 0 0 25px #b3a18b; */
+}
+
+/* .myButton:hover {
+  background-color: #dac4a9;
+  color: #ffffff;
+} */
+
+.myButton:active {
+  position: relative;
+}

@@ -1,0 +1,43 @@
+.container {
+  /* background-color: #ddcebd; */
+  /* height: 100vh; */
+  /* padding-left: 70px; */
+  /* background-color: #ddcebd; */
+  /* overflow: hidden; */
+  /* overflow-y: auto; */
+}
+
+.left {
+  width: 10%;
+  min-height: 100vh;
+  border-right: 3px solid grey;
+  text-align: center;
+  padding: 30px;
+  float: left;
+}
+
+.right {
+  width: 90%;
+  /* height: 100vh; */
+  padding: 30px;
+  float: left;
+  /* overflow: hidden; */
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(97, 96, 96);
+  margin-bottom: 20px;
+  width: fit-content;
+  /* vertical-align: middle; */
+}
+
+.active {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: rgb(97, 96, 96);
+  border-bottom: 1px solid grey;
+}

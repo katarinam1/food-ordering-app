@@ -1,0 +1,153 @@
+.container {
+  /* background-color: aqua; */
+  width: 100vw;
+  position: inherit;
+  z-index: 1;
+  /* background-color: #fffbf3; */
+  /* height: 100vh; */
+}
+
+.content {
+  height: 100vh;
+  /* width: 40%; */
+  /* background-color: blanchedalmond; */
+}
+
+.main {
+  padding: 120px;
+  padding-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 120px;
+  height: 100vh;
+  /* width: 60%; */
+  /* float: left; */
+  /* background-color: cadetblue; */
+}
+
+.img-container {
+  /* background-color: cadetblue; */
+  float: left;
+  width: 46.5%;
+  height: 98%;
+  z-index: 3;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  animation-name: zoomin;
+  animation-duration: 2s;
+}
+
+.block {
+  /* background-color: chocolate; */
+  background-color: #dfcebe;
+  background-color: #dcc1a7;
+  background-color: #ccaf93;
+  background-color: #bfa486;
+  background-color: rgb(202, 183, 151);
+  opacity: 80%;
+  top: 60px;
+  left: 800px;
+  width: 1000px;
+  height: 700px;
+  z-index: 2;
+  margin-top: 40px;
+  position: absolute;
+  -webkit-animation: slide 0.5s forwards;
+  /* -webkit-animation-delay: 2s; */
+  animation: slide 0.5s forwards;
+  /* animation-delay: 2s; */
+}
+
+.account {
+  /* background-color: chocolate; */
+  position: absolute;
+  top: 100px;
+  padding: 100px;
+  padding-top: 120px;
+  padding-right: 115px;
+  left: 950px;
+  /* height: 100%; */
+  z-index: 3;
+  width: 45%;
+  font-family: yrsa, serif;
+  font-weight: 300;
+  font-style: normal;
+  -webkit-animation: slideInfo 0.5s forwards;
+  /* -webkit-animation-delay: 2s; */
+  animation: slideInfo 0.5s forwards;
+}
+
+.buttons {
+  /* background-color: coral; */
+  padding-left: 10px;
+  border-bottom: 2px solid white;
+}
+
+.button {
+  background-color: inherit;
+  display: inline-block;
+  cursor: pointer;
+  background-color: inherit;
+  color: #313131;
+  color: white;
+  padding: 10px 32px;
+  margin-right: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  border: none;
+  font-size: 28px;
+  font-family: source-serif-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+  /* background-color: #d1b89e; */
+}
+.button:hover {
+  opacity: 70%;
+}
+.button:active {
+  /* border-bottom: 2px solid grey; */
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes zoomin {
+  0% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+} /*End of Zoom in Keyframes */
+
+@-webkit-keyframes slide {
+  100% {
+    top: 100px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    top: 100px;
+  }
+}
+
+@-webkit-keyframes slideInfo {
+  100% {
+    top: 80px;
+  }
+}
+
+@keyframes slideInfo {
+  100% {
+    top: 80px;
+  }
+}

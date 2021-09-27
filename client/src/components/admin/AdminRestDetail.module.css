@@ -1,0 +1,32 @@
+.time {
+  /* background-color: grey; */
+  width: fit-content;
+  /* margin-bottom: 25px;
+   */
+  margin-left: 110px;
+  margin-top: -19px;
+  padding-bottom: 10px;
+  /* display: inline; */
+}
+
+.button,
+.button-table {
+  width: 160px;
+  background-color: #4caf50;
+  background-color: #9b9b9b;
+  color: white;
+  padding: 14px 20px;
+  /* margin: 8px 0; */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.button-table {
+  /* margin-left: 3px; */
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+}

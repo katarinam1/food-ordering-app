@@ -1,0 +1,121 @@
+.container {
+  /* background-color: cornflowerblue; */
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+  /* padding-top: 100px; */
+  text-align: center;
+  overflow: auto;
+  height: 500px;
+}
+
+.table {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 14px;
+  overflow: auto;
+  border-collapse: collapse;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.table td,
+.table th {
+  /* border: 1px solid #ddd; */
+  text-align: start;
+  color: white;
+  /* font-weight: 500; */
+  font-size: 12px;
+  padding: 8px;
+  padding-bottom: 20px;
+  /* background-color: blue; */
+}
+
+.table tr:nth-child(even) {
+  background-color: #d0bea3;
+}
+
+.table tr:hover {
+  /* background-color: #e4c3a1; */
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #04aa6d; */
+  background-color: inherit;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(218, 210, 210);
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+  border: 0.1px solid #b7b7b7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d3c9be;
+}
+
+.item-img {
+  display: inline-block;
+  /* vertical-align: middle; */
+  width: 70px;
+  height: 60px;
+  position: relative;
+  /* background-color: blueviolet; */
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: #d7c0a7;
+}
+.button:hover {
+  background-color: #e9d5bc;
+  opacity: 90%;
+  color: #ffffff;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.total {
+  width: 150px;
+}
+
+.total-price {
+  width: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.button:disabled,
+.button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  background-color: #d7c0a7;
+  color: #666666;
+  cursor: not-allowed;
+}

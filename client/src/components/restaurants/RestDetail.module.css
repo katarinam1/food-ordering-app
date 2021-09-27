@@ -1,0 +1,167 @@
+.row {
+  display: flex;
+  max-width: 58%;
+  margin-left: 360px;
+  margin-top: 5px;
+  height: 38vh;
+  opacity: 0;
+  transform: translate(0, 50%);
+  visibility: hidden;
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+  will-change: opacity, visibility;
+}
+.visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  display: flex;
+}
+/* Create two equal columns that sits next to each other */
+.column-left {
+  flex: 50%;
+  background-color: inherit;
+  text-align: center;
+  background-color: #eee3d7;
+  background-color: #e9d3bf;
+  background-color: rgb(226, 207, 175);
+  /* background-color: #c2b3a4; */
+}
+
+.column-right {
+  flex: 50%;
+  /* background-color: brown; */
+  background-color: inherit;
+  text-align: center;
+  background-color: #b6a99c;
+  background-color: #dcc1a7;
+  /* padding-left: 10px; */
+  /* background-color: #ffffff; */
+}
+
+/* .img-container {
+  width: 120%;
+  height: 100%;
+} */
+
+.img1 {
+  max-width: 100%;
+  max-height: 100%;
+  /* border-left: 2px solid white; */
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.heading,
+.p {
+  color: rgb(87, 86, 86);
+  font-size: 1.2vw;
+  /* text-align: left; */
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 5px;
+  /* text-align: center; */
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Libre Franklin", sans-serif;
+  color: #fffefe;
+  /* color: rgb(156, 153, 153);
+  color: #3a3a3a;
+   */
+}
+
+.p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1vw;
+  color: #3a3a3a;
+  color: rgb(156, 153, 153);
+  color: #3a3a3a;
+  color: white;
+}
+.span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 0.7vw;
+  color: rgb(87, 86, 86);
+  text-align: left;
+  padding-left: 6%;
+  color: white;
+  color: rgb(156, 153, 153);
+  color: #3a3a3a;
+}
+
+@media (max-width: 960px) {
+  .row {
+    width: 700px;
+    margin: 90px;
+    height: 80px;
+  }
+}
+
+.myButton {
+  background-color: inherit;
+  background-color: #d1b89e;
+  border: 1px solid #d1b89e;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 1vh;
+  color: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: inherit;
+  background-color: #d1b89e;
+  border: 1px solid #4e4e4e;
+  border: 2px solid white;
+  color: #313131;
+  background-color: inherit;
+  font-size: 0.6vw;
+  padding: 10px 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+.myButton:hover {
+  background-color: #e1c5a3;
+  color: #ffffff;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.details,
+.tag {
+  /* background-color: aqua; */
+  display: inline-block;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "aileron", sans-serif;
+  /* margin-left: 30px; */
+  font-size: 13px;
+  width: 100%;
+  color: rgb(68, 68, 68);
+  color: white;
+}
+
+.details-span {
+  margin-left: 5px;
+  /* padding-right: 168px; */
+  font-family: "aileron", sans-serif;
+  color: rgb(109, 107, 107);
+  color: white;
+  /* background-color: blue; */
+}
+
+.tag {
+  width: fit-content;
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 5px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  /* background-color: black; */
+  border: 1px solid white;
+}

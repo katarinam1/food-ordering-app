@@ -1,0 +1,58 @@
+.input {
+  width: 260px;
+  /* margin-top: 10px; */
+  text-align: start;
+  box-sizing: border-box;
+  /* border: none; */
+  font-size: 16px;
+  background-position: 10px 10px;
+  color: rgb(117, 117, 117);
+  border: none;
+  background-repeat: no-repeat;
+  /* padding: 10px 10px 10px 30px; */
+  margin-bottom: -5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-left: 0px;
+
+  font-size: 20px;
+  color: rgb(97, 96, 96);
+  margin-left: 0px;
+  /* line-height: 20px; */
+  background-color: inherit;
+  /* margin-top: 10px; */
+  /* background-color: khaki; */
+}
+
+.place .input:focus {
+  /* border: 1px solid rgb(102, 101, 101); */
+}
+
+.input:focus::-webkit-input-placeholder {
+}
+
+.input::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  /* color: rgb(3, 3, 3); */
+  text-align: start;
+  font-size: 17px;
+  color: rgb(97, 96, 96);
+  /* opacity: 30%; */
+}
+
+.input:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  text-align: start;
+}
+
+.input:-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  text-align: start;
+}
+
+.input::-moz-placeholder {
+  font-family: "Roboto", sans-serif;
+  text-align: start;
+}
