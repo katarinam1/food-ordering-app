@@ -13,7 +13,7 @@ const AdminCarts = () => {
       setCarts(carts);
     };
     fetchCarts();
-  }, [cartCtx]);
+  }, []);
 
   const deleteCartHandler = async (id) => {
     await cartCtx.deleteCart(id);

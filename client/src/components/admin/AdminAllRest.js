@@ -12,7 +12,7 @@ const AdminAllRest = () => {
       await restCtx.getRestaurants('', 1, 0);
     };
     fetchRestaurants();
-  }, [restCtx]);
+  }, []);
 
   return (
     <Fragment>

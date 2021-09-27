@@ -18,7 +18,7 @@ const AdminRestDetail = () => {
       await restCtx.updateCurrentRestaurant(params.restId);
     };
     fetchRestaurant();
-  }, [params.restId, restCtx]);
+  }, []);
 
   const calcWorkingTime = (open, close) => {
     if (!open && !close) return 'closed';
