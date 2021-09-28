@@ -11,7 +11,7 @@ The application includes:
   - Changing user's profile, viewing order history and favorite restaurants
 <br>
 
-# 💻Technologies
+# Technologies
 Built using MERN stack: MongoDB, Express, React, Node.js.
 
 # Screenshots
@@ -46,7 +46,12 @@ Built using MERN stack: MongoDB, Express, React, Node.js.
 ### ▪ User Information Page (Order History)
 ![user](https://user-images.githubusercontent.com/91408364/135074673-f0b8539c-69de-4737-baeb-a026dd8a5454.png)
 
-# Working App (Adding Items to Cart)
+# Working App 
+
+### ▪ Filtering Restaurants 
+![filter](https://user-images.githubusercontent.com/91408364/135135568-8813d1b8-128d-4f8e-ac50-08f856970959.gif)
+
+### ▪ Adding Items to Cart
 ![meals](https://user-images.githubusercontent.com/91408364/135084055-fd87b794-aed6-4d65-b236-04e46ae5e1f0.gif)
 
 ![cart](https://user-images.githubusercontent.com/91408364/135095589-f8516caf-7239-48a1-8ae3-9796058a293d.gif)
