@@ -8,7 +8,7 @@ The application includes:
   - Entering the promotion code for an order price reduction
   - Rating restaurants
   - Marking restaurant as a "favorite"
-  - Changing user's profile and viewing order history 
+  - Changing user's profile, viewing order history and favorite restaurants
 <br>
 
 # 💻Technologies
