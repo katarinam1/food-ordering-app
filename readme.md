@@ -9,6 +9,11 @@ The application includes:
   - Rating restaurants
   - Marking restaurant as a "favorite"
   - Changing user's profile, viewing order history and favorite restaurants
+  - Functionalities implemented for the administrator:
+    * creating, updating, and deleting restaurants and meals
+    * creating and deleting promotion codes
+    * deleting abandoned shopping carts
+    * accepting and declining orders 
 <br>
 
 # Technologies
